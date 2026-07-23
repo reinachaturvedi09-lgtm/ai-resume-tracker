@@ -117,11 +117,11 @@ The application will open in your default web browser at `http://localhost:8501`
 
 4. **Review Results**
    - Check your Match Percentage
-   - Review Matched Keywords (✅ already in your resume)
-   - Identify Missing Keywords (❌ to add to your resume)
+   - Review Matched Keywords ( already in your resume)
+   - Identify Missing Keywords ( to add to your resume)
    - Follow Recommended Actions
 
-## 📊 Understanding the Results
+##  Understanding the Results
 
 ### Match Percentage Score
 - **75% - 100%**:  **Excellent Match** - Your resume is well-aligned
