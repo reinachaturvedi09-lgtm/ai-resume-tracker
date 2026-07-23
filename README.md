@@ -14,7 +14,7 @@ This tool uses advanced Natural Language Processing (NLP) and Machine Learning a
 - **Provide** actionable recommendations for resume optimization
 - **Calculate** a detailed match percentage score
 
-## ✨ Key Features
+##  Key Features
 
 ### 1. **Resume Parsing**
 - Parse PDF and DOCX resume formats
@@ -45,7 +45,7 @@ This tool uses advanced Natural Language Processing (NLP) and Machine Learning a
 - Best practices for resume optimization
 - ATS-friendly formatting tips
 
-## 🛠️ Tech Stack
+##  Tech Stack
 
 ### Backend
 - **Python 3.9+**: Core programming language
@@ -58,7 +58,7 @@ This tool uses advanced Natural Language Processing (NLP) and Machine Learning a
 - **Streamlit**: Interactive web application framework
 - **Custom CSS**: Enhanced UI/UX
 
-## 📦 Installation
+##  Installation
 
 ### Prerequisites
 - Python 3.9 or higher
@@ -96,7 +96,7 @@ streamlit run app.py
 
 The application will open in your default web browser at `http://localhost:8501`
 
-## 🚀 Usage Guide
+##  Usage Guide
 
 ### Basic Usage
 
@@ -124,9 +124,9 @@ The application will open in your default web browser at `http://localhost:8501`
 ## 📊 Understanding the Results
 
 ### Match Percentage Score
-- **75% - 100%**: ✅ **Excellent Match** - Your resume is well-aligned
-- **50% - 74%**: ⚠️ **Good Match** - Relevant skills present, some gaps
-- **0% - 49%**: ❌ **Poor Match** - Significant skill gaps
+- **75% - 100%**:  **Excellent Match** - Your resume is well-aligned
+- **50% - 74%**:  **Good Match** - Relevant skills present, some gaps
+- **0% - 49%**:  **Poor Match** - Significant skill gaps
 
 ### Matched Keywords
 Keywords found in both your resume and job description. These are your strengths that align with the position.
@@ -134,7 +134,7 @@ Keywords found in both your resume and job description. These are your strengths
 ### Missing Keywords
 Keywords from the job description that aren't in your resume. Consider adding these if they're relevant to your experience.
 
-## 💡 Optimization Tips
+##  Optimization Tips
 
 ### 1. Keyword Optimization
 - Mirror language from the job description
@@ -154,14 +154,14 @@ Keywords from the job description that aren't in your resume. Consider adding th
 ```
 
 ### 3. ATS-Friendly Formatting
-- ✅ Use standard fonts (Arial, Calibri, Times New Roman)
-- ✅ Keep simple formatting (avoid graphics, tables in headers)
-- ✅ Use standard section headings
-- ✅ Include relevant keywords naturally
-- ❌ Avoid: Graphics, headers/footers, unusual fonts
-- ❌ Avoid: Tables for layout, columns, text boxes
+-  Use standard fonts (Arial, Calibri, Times New Roman)
+-  Keep simple formatting (avoid graphics, tables in headers)
+-  Use standard section headings
+-  Include relevant keywords naturally
+-  Avoid: Graphics, headers/footers, unusual fonts
+-  Avoid: Tables for layout, columns, text boxes
 
-## 🔧 Configuration
+##  Configuration
 
 Edit `config.py` to customize:
 
@@ -180,7 +180,7 @@ EXCELLENT_MATCH = 0.75  # 75%
 GOOD_MATCH = 0.50      # 50%
 ```
 
-## 📁 Project Structure
+##  Project Structure
 
 ```
 ai-resume-tracker/
@@ -195,7 +195,7 @@ ai-resume-tracker/
     └── config.toml      # Streamlit configuration
 ```
 
-## 🤖 How the Matching Algorithm Works
+##  How the Matching Algorithm Works
 
 ### TF-IDF (Term Frequency-Inverse Document Frequency)
 1. **Tokenization**: Split text into words
@@ -213,7 +213,7 @@ ai-resume-tracker/
 3. Find difference (missing keywords)
 4. Calculate coverage percentage
 
-## 📈 Performance Metrics
+##  Performance Metrics
 
 - **Resume Parsing**: < 1 second for typical resumes
 - **Analysis Time**: < 2 seconds for full analysis
@@ -221,7 +221,7 @@ ai-resume-tracker/
 - **Supported Formats**: PDF, DOCX
 - **Typical Match Accuracy**: 85-95%
 
-## 🐛 Troubleshooting
+##  Troubleshooting
 
 ### Issue: "Failed to parse PDF file"
 **Solution**: Ensure the PDF is text-based (not scanned image). Use OCR tools if needed.
@@ -245,7 +245,7 @@ pip install --upgrade -r requirements.txt
 streamlit cache clear
 ```
 
-## 🚀 Deployment
+##  Deployment
 
 ### Deploy on Streamlit Cloud (Recommended)
 
@@ -258,14 +258,14 @@ streamlit cache clear
 
 **Live Demo**: Coming soon!
 
-## 📚 Learning Resources
+##  Learning Resources
 
 - [Streamlit Documentation](https://docs.streamlit.io/)
 - [Scikit-Learn TF-IDF](https://scikit-learn.org/stable/modules/generated/sklearn.feature_extraction.text.TfidfVectorizer.html)
 - [PyPDF2 Documentation](https://pypdf.readthedocs.io/)
 - [Python-DOCX Guide](https://python-docx.readthedocs.io/)
 
-## 🤝 Contributing
+## Contributing
 
 Contributions are welcome! Please follow these steps:
 
@@ -275,11 +275,11 @@ Contributions are welcome! Please follow these steps:
 4. Push to the branch (`git push origin feature/amazing-feature`)
 5. Open a Pull Request
 
-## 📝 License
+##  License
 
 This project is licensed under the MIT License - see the LICENSE file for details.
 
-## 👨‍💻 Author
+##  Author
 
 **Reina Chaturvedi**
 - GitHub: [@reinachaturvedi09-lgtm](https://github.com/reinachaturvedi09-lgtm)
@@ -287,6 +287,4 @@ This project is licensed under the MIT License - see the LICENSE file for detail
 
 ---
 
-**Star ⭐ this repository if you find it helpful!**
 
-*Last Updated: July 2024*
