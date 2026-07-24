@@ -1,19 +1,8 @@
-[theme]
-primaryColor = "#2E86C1"
-backgroundColor = "#FFFFFF"
-secondaryBackgroundColor = "#F0F2F6"
-textColor = "#262730"
-font = "sans serif"
+[logger]
+level = "debug"
 
 [client]
-showErrorDetails = false
-sidebarState = "expanded"
-
-[logger]
-level = "info"
-messageFormat = "%(asctime)s - %(levelname)s - %(message)s"
+showErrorDetails = true
 
 [server]
-headless = true
-runOnSave = true
-maximumUploadedFileSize = 10
+maxUploadSize = 200
