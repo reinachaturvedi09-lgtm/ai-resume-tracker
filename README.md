@@ -95,6 +95,8 @@ streamlit run app.py
 ```
 
 The application will open in your default web browser at `http://localhost:8501`
+#Live Demo Link
+https://ai-resume-tracker-ykbymlsajshcpoqbnxtpxt.streamlit.app/
 
 ##  Usage Guide
 
