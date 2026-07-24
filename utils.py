@@ -12,7 +12,7 @@ import logging
 import numpy as np
 from sklearn.feature_extraction.text import TfidfVectorizer
 from sklearn.metrics.pairwise import cosine_similarity
-from PyPDF2 import PdfReader
+from pypdf import PdfReader
 from docx import Document
 
 logger = logging.getLogger(__name__)
