@@ -3,29 +3,6 @@ Streamlit web application for AI-Powered Resume Tracker & ATS Optimizer.
 Provides an interactive dashboard for resume analysis and optimization.
 """
 
-# Initialize spaCy model on startup
-import sys
-import os
-
-@st.cache_resource
-def load_spacy_model():
-    """Load spaCy model with caching to avoid reloading on every run"""
-    import spacy
-    try:
-        nlp = spacy.load("en_core_web_sm")
-    except OSError:
-        # If model not found, try to download it
-        import subprocess
-        try:
-            subprocess.check_call([sys.executable, "-m", "spacy", "download", "en_core_web_sm"])
-            nlp = spacy.load("en_core_web_sm")
-        except Exception as e:
-            # If download fails, show error but don't crash
-            import streamlit as st
-            st.error(f"⚠️ Could not load spaCy model: {str(e)}")
-            return None
-    return nlp
-
 import streamlit as st
 import tempfile
 from pathlib import Path
@@ -48,9 +25,6 @@ st.set_page_config(
     layout=LAYOUT,
     initial_sidebar_state=INITIAL_SIDEBAR_STATE
 )
-
-# Load spaCy model
-nlp = load_spacy_model()
 
 st.markdown("""
     <style>
