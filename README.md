@@ -1,9 +1,5 @@
 # AI-Powered Resume Tracker & ATS Optimizer
 
-[![Python Version](https://img.shields.io/badge/python-3.9%2B-blue.svg)](https://www.python.org/downloads/)
-[![Streamlit](https://img.shields.io/badge/streamlit-1.28.1-red.svg)](https://streamlit.io/)
-[![License](https://img.shields.io/badge/license-MIT-green.svg)](LICENSE)
-
 ##  Project Overview
 
 **AI-Powered Resume Tracker & ATS Optimizer** is a portfolio-grade web application designed to help job seekers optimize their resumes for Applicant Tracking Systems (ATS) and increase their chances of passing automated screening.
