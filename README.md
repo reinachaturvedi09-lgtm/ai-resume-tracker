@@ -94,9 +94,12 @@ pip install -r requirements.txt
 streamlit run app.py
 ```
 
-The application will open in your default web browser at `http://localhost:8501`
-#Live Demo Link
-https://ai-resume-tracker-ykbymlsajshcpoqbnxtpxt.streamlit.app/
+##Screenshot
+<img width="1919" height="910" alt="Screenshot 2026-07-29 202138" src="https://github.com/user-attachments/assets/fdab7030-541b-467c-b525-7754d52f5bc3" />
+
+<img width="1827" height="861" alt="ChatGPT Image Jul 29, 2026, 08_23_10 PM" src="https://github.com/user-attachments/assets/8fce9ed9-7b25-4ad8-b934-11faf3a29def" />
+
+
 
 ##  Usage Guide
 
