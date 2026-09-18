@@ -257,7 +257,7 @@ streamlit cache clear
 5. Set main file path: `app.py`
 6. Deploy!
 
-**Live Demo**: Coming soon!
+**Live Demo**:https://ai-resume-tracker-eu9jw4twhn4n3vggmbvcwn.streamlit.app/
 
 ##  Learning Resources
 
